@@ -12,3 +12,18 @@ incompatibale with pip, so based on [an article on
 launchpad](https://bugs.launchpad.net/ubuntu/+source/python-pip/+bug/1306991/comments/11)
 we always `easy_install requests==2.2.1`
 
+##Example Usage
+
+```
+$ docker run --rm pyli https://raw.githubusercontent.com/metalivedev/dcdumper/master/requirements.txt
+argparse, Python Software Foundation License
+chardet, LGPL
+colorama, BSD
+dotcloud, ERROR
+html5lib, MIT License
+mercurial, GNU GPLv2 or any later version
+requests, Copyright 2014 Kenneth Reitz
+six, MIT
+urllib3, MIT
+wsgiref, PSF or ZPL
+```
